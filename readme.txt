@@ -1,4 +1,4 @@
-This is my pipelined CPU implementation.
+pipelined CPU implementation.
 
 The main entity is located in CPU.vhdl. It is divided into entities by 
 stage. Each stage has its own entity and its own register to store the 
@@ -15,4 +15,3 @@ CPU. This is not currently active, but it can be activated by changing
 a false to a true. In order for this testing to succeed, the CPU needs 
 to be running the code in memory.dat.
 
-This code is also available on github: http://github.com/jncraton/MIPS-Lite
